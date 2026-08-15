@@ -66,6 +66,10 @@ checkpoints/
 *.pth
 *.ckpt
 
+# ...except the pretrained weights shipped with the artifact.
+!ae/results/weights/
+!ae/results/weights/*.pt
+
 # Data
 data/
 datasets/

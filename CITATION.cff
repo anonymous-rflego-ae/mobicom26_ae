@@ -9,8 +9,8 @@ authors:
     given-names: "Authors"
 repository-code: "https://github.com/anonymous-rflego-ae/mobicom26_ae"
 version: "ae-v1"
-date-released: "2026-07-05"
-license: "GPL-3.0-only"
+date-released: "2026-08-15"
+license: "MIT"
 abstract: "Artifact-evaluation package for RF-LEGO, including prepared RF sensing benchmarks, pretrained module weights, one-click evaluation scripts, and cascadability reproduction scripts."
 keywords:
   - rf sensing
