@@ -8,9 +8,14 @@ authors:
   - family-names: "Anonymous"
     given-names: "Authors"
 repository-code: "https://github.com/anonymous-rflego-ae/mobicom26_ae"
-version: "ae-v1"
+version: "v1"
 date-released: "2026-08-15"
 license: "MIT"
+doi: "10.5281/zenodo.21941553"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21941553"
+    description: "Archived artifact record on Zenodo"
 abstract: "Artifact-evaluation package for RF-LEGO, including prepared RF sensing benchmarks, pretrained module weights, one-click evaluation scripts, and cascadability reproduction scripts."
 keywords:
   - rf sensing
