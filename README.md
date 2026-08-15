@@ -24,6 +24,12 @@ Current AE data files:
 | `uwb_dopplerft.npz` | UWB | Doppler FT |
 | `wifi_dopplerft.npz` | WiFi | Doppler FT |
 
+Licensing:
+
+- Source code (the `rflego` package and `ae/scripts/`): MIT, see `LICENSE`.
+- Prepared benchmark files (`ae_data/*.npz`): CC BY 4.0, see `ae_data/LICENSE`.
+- Pretrained weights (`ae/results/weights/*.pt`): MIT, same terms as the code.
+
 Project metadata:
 
 - `uv.lock` records the package-resolution lockfile used for this artifact.
