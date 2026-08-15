@@ -1,0 +1,24 @@
+module: detector
+
+model:
+  hidden_dim: 64
+  order: 64
+  num_layers: 1
+  channels: 1
+  dt_min: 8.0e-5
+  dt_max: 1.0e-1
+  dropout: 0.2
+  device: cpu
+
+train:
+  batch_size: 512
+  steps: 1300             # Artifact-specific; the paper does not report training duration.
+  lr: 1.0e-3
+  weight_decay: 0.01
+  seed: 42
+  n_total: 30000
+  val_fraction: 0.2
+  pos_weight: 20.0
+
+data:
+  L: 128

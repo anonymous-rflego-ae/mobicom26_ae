@@ -1,0 +1,19 @@
+# Replace the anonymous placeholders with final paper metadata before public
+# release and before uploading the Zenodo record.
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the RF-LEGO paper and this artifact."
+title: "RF-LEGO Artifact Evaluation"
+type: software
+authors:
+  - family-names: "Anonymous"
+    given-names: "Authors"
+repository-code: "https://github.com/anonymous-rflego-ae/mobicom26_ae"
+version: "ae-v1"
+date-released: "2026-07-05"
+license: "GPL-3.0-only"
+abstract: "Artifact-evaluation package for RF-LEGO, including prepared RF sensing benchmarks, pretrained module weights, one-click evaluation scripts, and cascadability reproduction scripts."
+keywords:
+  - rf sensing
+  - signal processing
+  - deep unrolling
+  - artifact evaluation

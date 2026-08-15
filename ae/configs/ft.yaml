@@ -1,0 +1,21 @@
+module: ft
+
+model:
+  sequence_length: 256     
+  num_conv_layers: 6      
+  dropout: 0.2
+  device: cpu
+
+train:
+  batch_size: 512
+  steps: 1300             # Artifact-specific; the paper does not report training duration.
+  lr: 1.0e-3
+  weight_decay: 0.01
+  seed: 42
+  n_total: 30000
+  val_fraction: 0.2
+  target_sigma: 0.5      
+  sidelobe_l1: 0.2      
+
+data:
+  N: 256

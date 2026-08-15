@@ -1,0 +1,26 @@
+module: beamformer
+
+model:
+  dict_length: 121         
+  num_layers: 10           
+  dropout: 0.2
+  device: cpu
+
+train:
+  batch_size: 512
+  steps: 1300
+  lr: 1.0e-3
+  weight_decay: 0.01
+  seed: 42
+  n_total: 30000
+  val_fraction: 0.2
+  target_sigma: 1.0
+  l1: 0.01
+
+data:
+  M: 8                      
+
+baseline:
+  lasso_lam: 0.08
+  lasso_step: 0.01
+  lasso_iters: 10
